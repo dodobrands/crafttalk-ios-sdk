@@ -1,0 +1,114 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_kGDTCORBatchComponentsExpirationKey",
+            "_GDTCORConsoleLoggerLoggingLevel",
+            "_kGDTCORBatchComponentsBatchIDKey",
+            "_kGDTCOREventComponentsMappingIDKey",
+            "_kGDTCORFlatFileStorageSizeLimit",
+            "_kGDTCORBatchComponentsTargetKey",
+            "_kGDTCOREventComponentsExpirationKey",
+            "_kGDTCORApplicationWillEnterForegroundNotification",
+            "_kGDTCORApplicationWillTerminateNotification",
+            "_gdt_cct_NetworkConnectionInfo_fields",
+            "_GoogleDataTransportVersionString",
+            "_gdt_cct_NetworkConnectionInfo_mobile_subtype_default",
+            "_gdt_cct_LogRequest_fields",
+            "_GDTCCTEventCodeInfo",
+            "_gdt_cct_NetworkConnectionInfo_network_type_default",
+            "_GDTCCTNeedsNetworkConnectionInfo",
+            "_gdt_cct_ClientInfo_fields",
+            "_gdt_cct_QosTiersOverride_fields",
+            "_kGDTCOREventComponentsEventIDKey",
+            "_kGDTCOREventComponentsQoSTierKey",
+            "_gdt_cct_LogRequest_qos_tier_default",
+            "_gdt_cct_BatchedLogRequest_fields",
+            "_kGDTCORApplicationDidEnterBackgroundNotification",
+            "_gdt_cct_LogEvent_fields",
+            "_gdt_cct_LogResponse_fields",
+            "_GDTCCTNetworkConnectionInfo",
+            "_gdt_cct_QosTierConfiguration_fields",
+            "_gdt_cct_QosTierConfiguration_log_source_default",
+            "_gdt_cct_IosClientInfo_fields",
+            "_kGDTCORVersion",
+            "_GoogleDataTransportVersionNumber",
+            "_GDTCORFlatFileStorageErrorDomain",
+            "_GDTCORBackgroundIdentifierInvalid"
+          ],
+          "objc_class": [
+            "GDTCCTCompressionHelper",
+            "PodsDummy_GoogleDataTransport",
+            "GDTCORLifecycle",
+            "GDTCORUploadBatch",
+            "GDTCCTUploader",
+            "GDTCOREvent",
+            "GDTCORUploadCoordinator",
+            "GDTCORClock",
+            "GDTCORDirectorySizeTracker",
+            "GDTCORRegistrar",
+            "GDTCOREndpoints",
+            "GDTCORTransformer",
+            "GDTCORFlatFileStorage",
+            "GDTCORReachability",
+            "GDTCORStorageEventSelector",
+            "GDTCORTransport",
+            "GDTCORApplication",
+            "GDTCCTUploadOperation"
+          ]
+        },
+        "text": {
+          "global": [
+            "_GDTCORDecodeArchive",
+            "_GDTCORMessageCodeEnumToString",
+            "_GDTCORDeviceModel",
+            "_GDTCCTConstructiOSClientInfo",
+            "_GDTCORAssertionBlockToRunInstead",
+            "_GDTCORNetworkTypeMessage",
+            "_GDTCCTEncodeString",
+            "_GDTCORStoragePromiseInstanceForTarget",
+            "_GDTCORWriteDataToFile",
+            "_GDTCCTEncodeData",
+            "_GDTCOREncodeArchive",
+            "_GDTCCTConstructClientInfo",
+            "_GDTCCTConstructLogEvent",
+            "_GDTCCTNetworkConnectionInfoNetworkMobileSubtype",
+            "_GDTCORNetworkMobileSubTypeMessage",
+            "_GDTCCTConstructBatchedLogRequest",
+            "_GDTCCTDecodeLogResponse",
+            "_GDTCCTConstructNetworkConnectionInfoData",
+            "_GDTCCTEncodeBatchedLogRequest",
+            "_GDTCORReachabilityFlagsReachable",
+            "_GDTCORLog",
+            "_GDTCORReachabilityFlagsContainWWAN",
+            "_GDTCORLogAssert",
+            "_GDTCORStorageInstanceForTarget",
+            "_GDTCCTConstructLogRequest",
+            "_GDTCORRootDirectory"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/GoogleDataTransport.framework/GoogleDataTransport"
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "14",
+        "target": "arm64-ios-simulator"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

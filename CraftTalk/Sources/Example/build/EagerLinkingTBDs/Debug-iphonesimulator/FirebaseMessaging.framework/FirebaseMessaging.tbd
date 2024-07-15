@@ -1,0 +1,100 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_kOldTableS2DRmqIds",
+            "_kFIRMessagingDomain",
+            "_kFIRMessagingCheckinFetchedNotification",
+            "_kFIRMessagingSubDirectoryName",
+            "_kTableLastRmqId",
+            "_kFIRMessagingContextManagerBodyKey",
+            "_kFIRMessagingContextManagerCategoryKey",
+            "_kFIRMessagingFromKey",
+            "_kFIRMessagingContextManagerTitleKey",
+            "_kFIRMessagingContextManagerLocalTimeEnd",
+            "_kFIRMessagingMessageLinkKey",
+            "_FIRMessagingRegistrationTokenRefreshedNotification",
+            "_kFIRMessagingMessageAPNSContentAvailableKey",
+            "_kFIRMessagingContextManagerLocalTimeStart",
+            "_FirebaseMessagingVersionNumber",
+            "_kPendingBatchesEncodingKey",
+            "_kFIRMessagingUserDefaultsKeyAutoInitEnabled",
+            "_kFIRMessagingRegistrationTokenRefreshNotification",
+            "_kFIRMessagingMessageSyncMessageTTLKey",
+            "_kFIRLoggerMessaging",
+            "_kFIRMessagingAPNSTokenNotification",
+            "_FirebaseMessagingVersionString",
+            "_kTableSyncMessages",
+            "_kPendingTopicBatchActionKey",
+            "_kFIRMessagingContextManagerSoundKey",
+            "_kFIRMessagingAPNSTokenType",
+            "_kTableS2DRmqIds",
+            "_kFIRMessagingRemoteNotificationsProxyEnabledInfoPlistKey",
+            "_kFIRMessagingPlistAutoInitEnabled",
+            "_kFIRMessagingContextManagerBadgeKey",
+            "_kPendingTopicBatchTopicsKey",
+            "_kFIRMessagingContextManagerContentAvailableKey",
+            "_kPendingTopicsTimestampEncodingKey",
+            "_kFIRMessagingMessageIDKey",
+            "_kTableOutgoingRmqMessages"
+          ],
+          "objc_class": [
+            "FIRMessagingMessageInfo",
+            "FIRMessagingLogger",
+            "FIRMessagingPendingTopicsList",
+            "FIRMessagingSyncMessageManager",
+            "PodsDummy_FirebaseMessaging",
+            "FIRMessagingTopicOperation",
+            "FIRMessaging",
+            "FIRMessagingRmqManager",
+            "FIRMessagingTopicBatch",
+            "FIRMessagingContextManagerService",
+            "FIRMessagingPersistentSyncMessage",
+            "FIRMessagingPubSub",
+            "FIRMessagingExtensionHelper",
+            "FIRMessagingAnalytics",
+            "FIRMessagingRemoteNotificationsProxy"
+          ]
+        },
+        "text": {
+          "global": [
+            "_FIRMessagingAppIdentifier",
+            "_FIRMessagingBundleIDByRemovingLastPartFrom",
+            "_FIRMessagingSharedLogger",
+            "_FIRMessagingStringFromSQLiteResult",
+            "_FIRMessagingSupportedDirectory",
+            "_FIRMessagingGetFreeDiskSpaceInMB",
+            "_FIRMessagingIsAPNSSyncMessage",
+            "_FIRMessagingIsContextManagerMessage",
+            "_FIRMessagingCurrentTimestampInSeconds",
+            "_FIRMessagingCurrentAppVersion",
+            "_FIRMessagingSubscriptionsServer",
+            "_FIRMessagingCurrentTimestampInMilliseconds",
+            "_FIRMessagingPropertyNameFromObject"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/FirebaseMessaging.framework/FirebaseMessaging"
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "14",
+        "target": "arm64-ios-simulator"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

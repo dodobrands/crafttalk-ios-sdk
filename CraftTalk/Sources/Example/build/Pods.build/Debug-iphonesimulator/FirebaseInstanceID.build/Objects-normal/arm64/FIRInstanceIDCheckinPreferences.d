@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/build/Pods.build/Debug-iphonesimulator/FirebaseInstanceID.build/module.modulemap \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinPreferences.m \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/FirebaseInstanceID/Firebase/InstanceID/Private/FIRInstanceIDCheckinPreferences.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/build/Pods.build/Debug-iphonesimulator/GoogleUtilities.build/module.modulemap \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/Target\ Support\ Files/GoogleUtilities/GoogleUtilities-umbrella.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULAppDelegateSwizzler.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULApplication.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULSceneDelegateSwizzler.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULAppEnvironmentUtil.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorage.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULKeychainStorage.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULKeychainUtils.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULSecureCoding.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULURLSessionDataResponse.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/NSURLSession+GULPromises.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GoogleUtilities/GULLogger.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GoogleUtilities/GULLoggerLevel.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/Public/GoogleUtilities/GULOriginalIMPConvenienceMacros.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/Public/GoogleUtilities/GULSwizzler.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/Public/GoogleUtilities/GULNSData+zlib.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULMutableDictionary.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetwork.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkConstants.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkLoggerProtocol.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkMessageCode.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkURLSession.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/Reachability/Public/GoogleUtilities/GULReachabilityChecker.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/GoogleUtilities/GoogleUtilities/UserDefaults/Public/GoogleUtilities/GULUserDefaults.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinService.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDUtilities.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/FirebaseInstanceID/Firebase/InstanceID/Private/FIRInstanceID+Private.h \
+  /Users/vladislav/Desktop/crafttalk-ios-sdk/CraftTalk/Sources/Example/Pods/FirebaseInstanceID/Firebase/InstanceID/Public/FIRInstanceID.h
