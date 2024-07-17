@@ -53,21 +53,8 @@ public final class CTChat {
     public let ctqueue = DispatchQueue(label: "crafttalk.chat.queue", qos: .utility, attributes: [.concurrent])
     
     // MARK: - Public methods
-    public func configure() {
+    public func configure(baseURL: String, salt: String, namespace: String) {
         ctqueue.async {
-            guard let baseURL = Bundle.main.object(forInfoDictionaryKey: "CTChatBaseURL") as? String else {
-                fatalError("CTChat: No CTChatBaseURL in Info.plist")
-            }
-            guard URL(string: baseURL) != nil else {
-                fatalError("CTChat: Incorrect baseURL")
-            }
-            guard let salt = Bundle.main.object(forInfoDictionaryKey: "CTChatBaseURL") as? String else {
-                fatalError("CTChat: No CTSalt in Info.plist")
-            }
-            guard let namespace = Bundle.main.object(forInfoDictionaryKey: "CTChatNamespace") as? String else {
-                fatalError("CTChat: No CTChatNamespace in Info.plist")
-            }
-            
             self.baseURL = baseURL
             self.salt = salt
             self.namespace = namespace
