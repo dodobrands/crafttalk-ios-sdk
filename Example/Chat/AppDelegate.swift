@@ -18,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         //FirebaseApp.configure()
-        CTChat.shared.configure()
+        configureChat()
+        
         let uuid = UserDefaults.standard.string(forKey: "uuid") ?? UUID().uuidString
         UserDefaults.standard.set(uuid, forKey: "uuid")
         let visitor = CTVisitor(firstName: "iOSExample", lastName: "", uuid: uuid, customProperties: ["custom" : "123"])
@@ -28,6 +29,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //registerAppForRemoteNotifications(application: application)
         
         return true
+    }
+    
+    func configureChat() {
+        guard let baseURL = Bundle.main.object(forInfoDictionaryKey: "CTChatBaseURL") as? String else {
+            fatalError("CTChat: No CTChatBaseURL in Info.plist")
+        }
+        guard URL(string: baseURL) != nil else {
+            fatalError("CTChat: Incorrect baseURL")
+        }
+        guard let salt = Bundle.main.object(forInfoDictionaryKey: "CTChatBaseURL") as? String else {
+            fatalError("CTChat: No CTSalt in Info.plist")
+        }
+        guard let namespace = Bundle.main.object(forInfoDictionaryKey: "CTChatNamespace") as? String else {
+            fatalError("CTChat: No CTChatNamespace in Info.plist")
+        }
+        
+        CTChat.shared.configure(baseURL: baseURL, salt: salt, namespace: namespace)
     }
     
     
