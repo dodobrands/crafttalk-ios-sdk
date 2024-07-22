@@ -122,7 +122,7 @@ public final class CTChatViewController: UIViewController {
     
     
     // MARK: - Properties
-    private var wkWebView: WKWebView!
+    public var wkWebView: WKWebView!
     private var chatURL: URL!
     private var visitor: CTVisitor!
     private var fileLoader: FileLoader!
